@@ -31,6 +31,7 @@ int main() {
     b.print();
     d.print();
     Base *ptr = &d;
+    Base *ptr = &b;
     ptr->print();
     return 0;    
 }
